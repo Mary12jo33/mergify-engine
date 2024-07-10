@@ -1,3 +1,4 @@
 # NOTE(sileht): we separate them, so Docker image can only pick poetry-version.txt
 -r poetry-version.txt
 tox==3.25.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
